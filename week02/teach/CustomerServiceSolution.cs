@@ -1,4 +1,4 @@
-﻿/// <summary>
+﻿/*/// <summary>
 /// Maintain a Customer Service Queue.  Allows new customers to be 
 /// added and allows customers to be serviced.
 /// </summary>
@@ -151,4 +151,4 @@ public class CustomerServiceSolution {
     public override string ToString() {
         return $"[size={_queue.Count} max_size={_maxSize} => " + string.Join(", ", _queue) + "]";
     }
-}
+}*/
