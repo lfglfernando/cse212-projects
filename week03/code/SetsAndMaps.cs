@@ -29,7 +29,6 @@ public static class SetsAndMaps
         {
             if (word[0] == word[1]) continue;
 
-        // Más rápido que new string(...) o interpolación
             string reverse = string.Create(2, word, (span, w) =>
             {
                 span[0] = w[1];
